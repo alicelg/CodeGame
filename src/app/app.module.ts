@@ -8,6 +8,7 @@ import { UserComponent } from './user/user.component';
 import { FooterComponent } from './footer/footer.component';
 import { ParentsComponent } from './parents/parents.component';
 import { EducatorsComponent } from './educators/educators.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { EducatorsComponent } from './educators/educators.component';
     UserComponent,
     FooterComponent,
     ParentsComponent,
-    EducatorsComponent
+    EducatorsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

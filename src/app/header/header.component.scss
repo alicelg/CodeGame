@@ -1,0 +1,16 @@
+button {
+    font-size: 20px;
+    color: #0e49b5 !important;
+    width: 200px;
+}
+
+button:hover {
+    color: #0e49b5 !important;
+    font-weight: bold;
+    border-bottom: 1px solid #0e49b5;
+}
+
+.button-color {
+    background-color: #ff0501;
+    color: white !important;
+}
