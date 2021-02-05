@@ -10,6 +10,7 @@ import { ParentsComponent } from './parents/parents.component';
 import { EducatorsComponent } from './educators/educators.component';
 import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LoginComponent } from './login/login.component';
     ParentsComponent,
     EducatorsComponent,
     HeaderComponent,
-    LoginComponent
+    LoginComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
