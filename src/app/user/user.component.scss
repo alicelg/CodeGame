@@ -1,0 +1,35 @@
+// .container-fluid {
+//     // poner un fondo chulo
+// }
+
+.card {
+    cursor: pointer;
+    background-color: #dee7f8;
+}
+
+.card:hover {
+    background-color: #0e49b5;
+    color: white;
+}
+
+.container-fluid {
+    background-color: #dee7f8;
+}
+
+.card-body:hover {
+    color: white;
+}
+
+h2,
+h4 {
+    font-size: 60px;
+    color: #0e49b5;
+}
+
+h3 {
+    color: #0e49b5;
+}
+
+h4 {
+    color: red;
+}
