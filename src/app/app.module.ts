@@ -11,6 +11,7 @@ import { EducatorsComponent } from './educators/educators.component';
 import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { DetailComponent } from './detail/detail.component';
+import { LevelComponent } from './level/level.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DetailComponent } from './detail/detail.component';
     EducatorsComponent,
     HeaderComponent,
     LoginComponent,
-    DetailComponent
+    DetailComponent,
+    LevelComponent
   ],
   imports: [
     BrowserModule,
